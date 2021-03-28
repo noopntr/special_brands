@@ -1,20 +1,31 @@
-import { Button } from 'bootstrap'
 import React from 'react'
-import { Card } from 'react-bootstrap'
+import {BsFillInfoCircleFill} from 'react-icons/bs'
+import playBtn from '../../Assets/Imgs/About/playBtn.png'
 
 function About() {
     return (
-        <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
-            <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                Some quick example text to build on the card title and make up the bulk of
-                the card's content.
-                </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
-            </Card.Body>
-        </Card>
+        <div className="about">
+            <div className="txt-content">
+                <h1>GET TO KNOW OUR JUICE</h1>
+                <p>Boise Juice Company specializes in 
+                    crafting raw, cold-pressed and 
+                    100% organic juice enriched with 
+                    the highest density of nutrients & flavor. 
+                    We believe in supporting local and 
+                    regional farms in Idaho, Oregon, and 
+                    Washington that grow only 100% organic, 
+                    non-GMO produce.
+                </p>
+                <button className="defButton">
+                    <BsFillInfoCircleFill /><a href="/">About Us</a>
+                </button>
+                
+            </div>
+            <div className="aboutBg">
+                <img className="playBtn" src={playBtn} alt="play" />
+            </div>
+            
+        </div>
     )
 }
 
