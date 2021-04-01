@@ -4,7 +4,7 @@ import playBtn from '../../Assets/Imgs/About/playBtn.png'
 
 function About() {
     return (
-        <div className="about">
+        <div id="about" className="about">
             <div className="txt-content">
                 <h1>GET TO KNOW OUR JUICE</h1>
                 <p>Boise Juice Company specializes in 

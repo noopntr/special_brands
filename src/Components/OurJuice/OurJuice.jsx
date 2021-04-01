@@ -4,7 +4,7 @@ import styles from './OurJuice.module.css'
 
 function OurJuice(props) {
     return (
-        <div className="our-juice">
+        <div id="products" className="our-juice background-blue">
             <div className="title">
                 <h1>{props.title}</h1>
             </div>

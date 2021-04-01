@@ -7,7 +7,7 @@ import SlideThree from '../../Assets/Imgs/CarouselImgs/3.jpg'
 
 function FirstCarousel() {
     return (
-        <div>
+        <div id="home">
         <Carousel style={{zIndex: '1'}}>
             <Carousel.Item className={styles.carouselPics}>
                 <div className={styles.filterOnPic}>

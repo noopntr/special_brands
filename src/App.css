@@ -298,9 +298,41 @@ li {
   margin-right: auto;
 }
 
-.juice-content .carousel-control-prev {}
+.juice-content .carousel-control-prev {
+  margin-left: 15px;
+  left: 0;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
 
-.juice-content .carousel-control-next {}
+.juice-content .carousel-control-next {
+  margin-right: 15px;
+  right: 0;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.juice-content .carousel-control-next:hover {
+  background-color: #1C2C4A;
+}
+
+.juice-content .carousel-control-prev:hover {
+  background-color: #1C2C4A;
+}
+
+.juice-content .carousel-control-prev .carousel-control-prev-icon {
+  width: 20px !important;
+  height: 20px !important;
+  position: static;
+}
+
+.juice-content .carousel-control-next .carousel-control-next-icon {
+  width: 20px !important;
+  height: 20px !important;
+  position: static;
+}
 
 .juice-content .carousel .carousel-indicators {
   display: flex;
@@ -311,9 +343,14 @@ li {
   margin-left: auto;
   margin-right: auto;
   background-color: #CECECE;
-  width: 200px;
-  height: 15px;
-  border-radius: 25px;
+  width: 400px;
+  height: 5px;
+  border-radius: 30px;
+}
+
+.juice-content .carousel .carousel-indicators li {
+  width: 70px;
+  height: 5px;
 }
 
 .juice-content .carousel .carousel-indicators .active {
@@ -330,6 +367,7 @@ li {
   cursor: pointer;
   margin-left: auto;
   margin-right: auto;
+  margin: 5px;
 }
 
 .juice-content .card:hover {
@@ -343,8 +381,61 @@ li {
   height: 350px;
 }
 
+.background-blue {
+  background: linear-gradient(to bottom, #ffffff 0%, #ffffff 35%, #d8ebfc 35%);
+}
+
 /* Our Juice */
 
 .purple {
   background-color: #741634;
 }
+
+/* Second Carousel */
+
+.sec-carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.sec-carousel-carousel {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Second Carousel End*/
+
+/* Staff */
+
+.staff {
+  background-color: #FFE2E2;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.staff>img {
+  position: absolute;
+}
+
+.staff .carousel-inner {
+  display: flex;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.staff .carousel-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Staff End */

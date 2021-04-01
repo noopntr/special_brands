@@ -6,7 +6,7 @@ import { RiArrowDownSFill } from 'react-icons/ri'
 const Header = () => {
     return (
         <header>
-            <nav className="navBar">
+            <nav id="navbar" className="navBar">
                 {/* Logo */}
                 <div className="BrandLogo" style={{zIndex: '2'}}>
                     <a href="/">
@@ -17,13 +17,13 @@ const Header = () => {
                 {/* NavMenu */}
                     <ul className="nav-links">
                         <li>
-                            <a href="/">Home</a>
+                            <a href="#navbar">Home</a>
                         </li>
                         <li>
-                            <a href="/">About Us</a>
+                            <a href="#about">About Us</a>
                         </li>
                         <li>
-                            <a href="/">Products</a>
+                            <a href="#products">Products</a>
                         </li>
                         <li>
                             <a href="/">Staff</a>
