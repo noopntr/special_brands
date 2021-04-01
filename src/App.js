@@ -3,7 +3,7 @@ import Header from './Components/Header/Header';
 import FirstCarousel from './Components/FirstCarousel/FirstCarousel';
 import About from './Components/About/About';
 import OurJuice from './Components/OurJuice/OurJuice';
-import SecCarousel from './Components/SecCarousel/SecCarousel'
+// import SecCarousel from './Components/SecCarousel/SecCarousel'
 import Staff from './Components/Staff/Staff'
 
 
