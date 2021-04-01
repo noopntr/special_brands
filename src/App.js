@@ -14,7 +14,7 @@ function App() {
         <FirstCarousel />
         <About />
         <OurJuice title="Our Juice"/>
-        <SecCarousel />
+        {/* <SecCarousel /> */}
         <Staff />
     </div>
   );
