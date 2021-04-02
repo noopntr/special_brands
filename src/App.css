@@ -420,6 +420,10 @@ li {
   margin-left: auto;
 }
 
+.staff .carousel {
+  margin-top: 20px;
+}
+
 .staff>img {
   position: absolute;
 }
@@ -436,6 +440,22 @@ li {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+
+.staff .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: none;
+  border: none;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.staff h1 {
+  font-size: 18px;
 }
 
 /* Staff End */

@@ -15,7 +15,15 @@ function App() {
         <About />
         <OurJuice title="Our Juice"/>
         {/* <SecCarousel /> */}
-        <Staff />
+        <Staff 
+          title="Our Staff"
+          firstName="Name, Surename"
+          firstPosition="Poisition"
+          secondName="Name, Surename"
+          secondPosition="Position"
+          thirdName="Name, Surename"
+          thirdPosition="Position"
+        />
     </div>
   );
 }

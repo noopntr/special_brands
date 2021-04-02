@@ -18,8 +18,8 @@ function Staff(props) {
                         <Card.Img variant="top" src={staffOne} />
                         <Card.Body>
                             <Card.Text>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
+                                <h1>{props.firstName}</h1>
+                                <p>{props.firstPosition}</p>
                             </Card.Text>
                         </Card.Body>
                     </Card>      
@@ -28,8 +28,8 @@ function Staff(props) {
                         <Card.Img variant="top" src={staffTwo} />
                         <Card.Body>
                             <Card.Text>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
+                                <h1>{props.secondName}</h1>
+                                <p>{props.secondPosition}</p>
                             </Card.Text>
                         </Card.Body>
                     </Card>         
@@ -38,17 +38,11 @@ function Staff(props) {
                         <Card.Img variant="top" src={staffThree} />
                         <Card.Body>
                             <Card.Text>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
+                                <h1>{props.thirdName}</h1>
+                                <p>{props.thirdPosition}</p>
                             </Card.Text>
                         </Card.Body>
                     </Card>         
-                </Carousel.Item>
-                <Carousel.Item>
-
-                </Carousel.Item>
-                <Carousel.Item>
-
                 </Carousel.Item>
             </Carousel>
         </div>
