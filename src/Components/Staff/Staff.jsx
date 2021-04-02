@@ -14,67 +14,67 @@ function Staff(props) {
             <img src={staffBg} alt="grape" />
             <Carousel className="staff-carousel">
                 <Carousel.Item>
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src={staffOne} />
-                        <Card.Body>
-                            <Card.Text>
-                                <span className="card-text-h1">{props.firstName}</span>
-                                {props.firstPosition}
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
-                    
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src={staffTwo} />
-                        <Card.Body>
-                            <Card.Text>
-                                <span className="card-text-h1">{props.secondName}</span>
-                                {props.secondPosition}
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
-
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src={staffThree} />
-                        <Card.Body>
-                            <Card.Text>
-                                <span className="card-text-h1">{props.thirdName}</span>
-                                {props.thirdPosition}
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
+                    <div className="carouselFlex">
+                        <Card style={{ width: '18rem' }}>
+                            <Card.Img variant="top" src={staffOne} />
+                            <Card.Body>
+                                <Card.Text>
+                                    <span className="card-text-h1">{props.firstName}</span>
+                                    {props.firstPosition}
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                        <Card style={{ width: '18rem' }}>
+                            <Card.Img variant="top" src={staffTwo} />
+                            <Card.Body>
+                                <Card.Text>
+                                    <span className="card-text-h1">{props.secondName}</span>
+                                    {props.secondPosition}
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                        <Card style={{ width: '18rem' }}>
+                            <Card.Img variant="top" src={staffThree} />
+                            <Card.Body>
+                                <Card.Text>
+                                    <span className="card-text-h1">{props.thirdName}</span>
+                                    {props.thirdPosition}
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </div>
                 </Carousel.Item>
 
                 <Carousel.Item>
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src={staffOne} />
-                        <Card.Body>
-                            <Card.Text>
-                                <span className="card-text-h1">{props.firstName}</span>
-                                {props.firstPosition}
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
-                    
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src={staffTwo} />
-                        <Card.Body>
-                            <Card.Text>
-                                <span className="card-text-h1">{props.secondName}</span>
-                                {props.secondPosition}
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
-
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src={staffThree} />
-                        <Card.Body>
-                            <Card.Text>
-                                <span className="card-text-h1">{props.thirdName}</span>
-                                {props.thirdPosition}
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
+                <div className="carouselFlex">
+                        <Card style={{ width: '18rem' }}>
+                            <Card.Img variant="top" src={staffOne} />
+                            <Card.Body>
+                                <Card.Text>
+                                    <span className="card-text-h1">{props.firstName}</span>
+                                    {props.firstPosition}
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                        <Card style={{ width: '18rem' }}>
+                            <Card.Img variant="top" src={staffTwo} />
+                            <Card.Body>
+                                <Card.Text>
+                                    <span className="card-text-h1">{props.secondName}</span>
+                                    {props.secondPosition}
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                        <Card style={{ width: '18rem' }}>
+                            <Card.Img variant="top" src={staffThree} />
+                            <Card.Body>
+                                <Card.Text>
+                                    <span className="card-text-h1">{props.thirdName}</span>
+                                    {props.thirdPosition}
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </div>
                 </Carousel.Item>
             </Carousel>
         </div>

@@ -302,6 +302,15 @@ li {
   margin-right: auto;
 }
 
+.carouselFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: none;
+  padding-bottom: 40px;
+  margin-top: 50px;
+}
+
 .juice-content .carousel-control-prev {
   margin-left: 15px;
   left: 0;
@@ -397,20 +406,6 @@ li {
 
 /* Second Carousel */
 
-.sec-carousel {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.sec-carousel-carousel {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
 /* Second Carousel End*/
 
 /* Staff */
@@ -442,12 +437,12 @@ li {
   height: 350px;
 }
 
-.staff .carousel-inner .carousel-item {
+/* .staff .carousel-inner {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .staff .card {
   display: flex;

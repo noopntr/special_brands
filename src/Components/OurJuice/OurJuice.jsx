@@ -1,6 +1,5 @@
 import { Card, Carousel } from 'react-bootstrap'
 import React from 'react'
-import styles from './OurJuice.module.css'
 
 function OurJuice(props) {
     return (
@@ -11,7 +10,7 @@ function OurJuice(props) {
             <div className="juice-content">
             <Carousel interval={null} style={{zIndex: '1'}}>
                 <Carousel.Item>
-                    <div className={styles.carouselFlex}>
+                    <div className="carouselFlex">
                         <Card style={{ width: '18rem' }}>
                             <Card.Img variant="top" src='asd' className="purple" />
                             <Card.Body>
@@ -39,7 +38,7 @@ function OurJuice(props) {
                     </div>
                 </Carousel.Item>
                 <Carousel.Item>
-                <div className={styles.carouselFlex}>
+                <div className="carouselFlex">
                     <Card style={{ width: '18rem' }}>
                             <Card.Img variant="top" src='asd' className="purple" />
                             <Card.Body>
