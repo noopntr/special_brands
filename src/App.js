@@ -17,11 +17,11 @@ function App() {
         {/* <SecCarousel /> */}
         <Staff 
           title="Our Staff"
-          firstName="Name, Surename"
-          firstPosition="Poisition"
-          secondName="Name, Surename"
+          firstName="Name, Surname"
+          firstPosition="Position"
+          secondName="Name, Surname"
           secondPosition="Position"
-          thirdName="Name, Surename"
+          thirdName="Name, Surname"
           thirdPosition="Position"
         />
     </div>

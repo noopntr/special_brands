@@ -18,31 +18,63 @@ function Staff(props) {
                         <Card.Img variant="top" src={staffOne} />
                         <Card.Body>
                             <Card.Text>
-                                <h1>{props.firstName}</h1>
-                                <p>{props.firstPosition}</p>
+                                <span className="card-text-h1">{props.firstName}</span>
+                                {props.firstPosition}
                             </Card.Text>
                         </Card.Body>
-                    </Card>      
+                    </Card>
                     
                     <Card style={{ width: '18rem' }}>
                         <Card.Img variant="top" src={staffTwo} />
                         <Card.Body>
                             <Card.Text>
-                                <h1>{props.secondName}</h1>
-                                <p>{props.secondPosition}</p>
+                                <span className="card-text-h1">{props.secondName}</span>
+                                {props.secondPosition}
                             </Card.Text>
                         </Card.Body>
-                    </Card>         
+                    </Card>
 
                     <Card style={{ width: '18rem' }}>
                         <Card.Img variant="top" src={staffThree} />
                         <Card.Body>
                             <Card.Text>
-                                <h1>{props.thirdName}</h1>
-                                <p>{props.thirdPosition}</p>
+                                <span className="card-text-h1">{props.thirdName}</span>
+                                {props.thirdPosition}
                             </Card.Text>
                         </Card.Body>
-                    </Card>         
+                    </Card>
+                </Carousel.Item>
+
+                <Carousel.Item>
+                    <Card style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src={staffOne} />
+                        <Card.Body>
+                            <Card.Text>
+                                <span className="card-text-h1">{props.firstName}</span>
+                                {props.firstPosition}
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                    
+                    <Card style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src={staffTwo} />
+                        <Card.Body>
+                            <Card.Text>
+                                <span className="card-text-h1">{props.secondName}</span>
+                                {props.secondPosition}
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+
+                    <Card style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src={staffThree} />
+                        <Card.Body>
+                            <Card.Text>
+                                <span className="card-text-h1">{props.thirdName}</span>
+                                {props.thirdPosition}
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
                 </Carousel.Item>
             </Carousel>
         </div>
