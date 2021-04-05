@@ -48,16 +48,16 @@ function Contact() {
                         <div className="contact-socials">
                             <ul>
                                 <li>
-                                    <AiFillFacebook />
+                                    <a href='/'><AiFillFacebook /></a>
                                 </li>
                                 <li>
-                                    <AiOutlineInstagram />
+                                    <a href='/'><AiOutlineInstagram /></a>
                                 </li>
                                 <li>
-                                    <AiFillYoutube />
+                                    <a href='/'><AiFillYoutube /></a>
                                 </li>
                                 <li>
-                                    <AiOutlineTwitter />
+                                    <a href='/'><AiOutlineTwitter /></a>
                                 </li>
                             </ul>
                         </div>
@@ -78,6 +78,7 @@ function Contact() {
                         <div className="flex-col">
                             <input type="text" id="subject" name="subject" placeholder="Subject" />
                             <textarea type="text" id="message" name="message" placeholder="Message" />
+                            <button type="submit">Send Message</button>
                         </div>
                     </form>
                 </div>

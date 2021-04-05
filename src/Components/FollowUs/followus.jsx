@@ -26,7 +26,7 @@ const FollowUs = () => {
 
   return (
     <div className="follow-holder">
-      <h1>Folow Us On Instagram: #Juice</h1>
+      <h1>Follow Us On Instagram: #Juice</h1>
 
       <div className="follow-container">
         {

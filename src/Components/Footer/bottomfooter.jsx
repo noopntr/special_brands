@@ -13,16 +13,16 @@ const bottomFooter = () => {
   return (
     <div className="bottomfooter-holder">
       <div className="social-icons">
-        <a href="#" target="_blank" rel="noreferrer">
+        <a href="/" target="_blank" rel="noreferrer">
           <AiFillFacebook color="#1C2C4A"></AiFillFacebook>
         </a>
-        <a href="#" target="_blank" rel="noreferrer">
+        <a href="/" target="_blank" rel="noreferrer">
           <AiOutlineInstagram color="#1C2C4A"></AiOutlineInstagram>
         </a>
-        <a href="#" target="_blank" rel="noreferrer">
+        <a href="/" target="_blank" rel="noreferrer">
           <AiFillYoutube color="#1C2C4A"></AiFillYoutube>
         </a>
-        <a href="#" target="_blank" rel="noreferrer">
+        <a href="/" target="_blank" rel="noreferrer">
           <AiOutlineTwitter color="#1C2C4A"></AiOutlineTwitter>
         </a>
       </div>
@@ -32,7 +32,7 @@ const bottomFooter = () => {
       </div>
 
       <div className="toTop">
-          <a href="#"><img src={topImg} alt=""/></a>
+          <a href="#navbar"><img src={topImg} alt=""/></a>
       </div>
     </div>
   );
