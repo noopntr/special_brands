@@ -5,6 +5,7 @@ import About from './Components/About/About';
 import OurJuice from './Components/OurJuice/OurJuice';
 // import SecCarousel from './Components/SecCarousel/SecCarousel'
 import Staff from './Components/Staff/Staff'
+import Contact from './Components/Contact/Contact';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           thirdName="Name, Surname"
           thirdPosition="Position"
         />
+        <Contact />
     </div>
   );
 }
