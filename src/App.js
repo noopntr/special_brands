@@ -18,7 +18,7 @@ function App() {
         <About />
         <OurJuice title="Our Juice"/>
         {/* <SecCarousel /> */}
-        <Staff 
+        <Staff
           title="Our Staff"
           firstName="Name, Surname"
           firstPosition="Position"

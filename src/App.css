@@ -501,25 +501,134 @@ li {
 
 /* Staff End */
 
+
 /* Contact */
 
+/* Contact Left Branding */
 .contact {
   display: flex;
   flex-direction: row;
   width: 100%;
-  height: 700px;
+  height: 650px;
+  color: white;
 }
 
-.contact-branding {
-  background-image: url(Assets/Imgs/Contact/bg.png);
-}
-
-.contact-info {
-  width: 70px;
+.contact-left-side {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  filter: blur(70%);
+  width: 50%;
+  background-image: url(Assets/Imgs/Contact/bg.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
+
+.contact-branding {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  width: 85%;
+  height: 650px;
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(5px);
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.contact-info p {
+  margin: 0;
+  width: fit-content;
+}
+
+.contact-branding-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+}
+
+.icon {
+  width: fit-content;
+  height: fit-content;
+  font-size: 24px;
+  margin-right: 15px;
+}
+
+.naming p{
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  margin-top: 8px;
+}
+
+.contact-socials ul{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 45px;
+  font-size: 36px;
+}
+
+.contact-socials li {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  margin: 15px;
+}
+
+.contact-info .brandingLogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+/* Contact Left Branding End */
+
+
+/* Contact Right inputs */
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #1C2C4A;
+  width: 50%;
+}
+
+.contact-inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.contact-form input {
+  margin: 15px;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+/* Contact Right inputs */
+
 
 /* Contact End */
