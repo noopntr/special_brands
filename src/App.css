@@ -499,3 +499,26 @@ li {
 }
 
 /* Staff End */
+
+/* Contact */
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 700px;
+}
+
+.contact-branding {
+  background-image: url(Assets/Imgs/Contact/bg.png);
+}
+
+.contact-info {
+  width: 70px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  filter: blur(70%);
+}
+
+/* Contact End */
