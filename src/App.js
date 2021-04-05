@@ -7,6 +7,7 @@ import OurJuice from './Components/OurJuice/OurJuice';
 import Staff from './Components/Staff/Staff'
 import FollowUs from './Components/FollowUs/followus';
 import Contact from './Components/Contact/Contact';
+import Footer from './Components/Footer/footer';
 
 
 function App() {
@@ -27,7 +28,8 @@ function App() {
           thirdPosition="Position"
         /> 
         <Contact />
-        <FollowUs></FollowUs>  
+        <FollowUs></FollowUs>
+        <Footer></Footer>
     </div>
   );
 }
