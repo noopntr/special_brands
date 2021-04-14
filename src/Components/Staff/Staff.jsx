@@ -1,5 +1,6 @@
 import { Card, Carousel } from 'react-bootstrap'
 import React from 'react'
+import './Staff.css'
 import staffBg from '../../Assets/Imgs/Staff/staffBg.png'
 import staffOne from '../../Assets/Imgs/Staff/1.png'
 import staffTwo from '../../Assets/Imgs/Staff/2.png'

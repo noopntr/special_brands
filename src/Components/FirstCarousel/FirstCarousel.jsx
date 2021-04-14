@@ -7,49 +7,49 @@ import SlideThree from '../../Assets/Imgs/CarouselImgs/3.jpg'
 
 function FirstCarousel() {
     return (
-        <div id="home">
-        <Carousel style={{zIndex: '1'}}>
-            <Carousel.Item className={styles.carouselPics}>
-                <div className={styles.filterOnPic}>
-                    <img
-                    className="d-block w-100"
-                    src={SlideOne}
-                    alt="Second slide"
-                    />
-                </div>
-                <Carousel.Caption className={styles.carouselContent}>
-                    <h1>Support Your <br/> <b>Immune Health</b></h1>
-                    <button className={styles.carouselButton}>DISCOVER SPARKLING JUICE</button>
-                </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item className={styles.carouselPics}>
-                <div className={styles.filterOnPic}>
-                    <img
-                    className="d-block w-100"
-                    src={SlideTwo}
-                    alt="Second slide"
-                    />
-                </div>
+        <div id="home" className="home">
+            <Carousel style={{zIndex: '1'}}>
+                <Carousel.Item className={styles.carouselPics}>
+                    <div className={styles.filterOnPic}>
+                        <img
+                        className="d-block w-100"
+                        src={SlideOne}
+                        alt="Second slide"
+                        />
+                    </div>
+                    <Carousel.Caption className={styles.carouselContent}>
+                        <h1>Support Your <br/> <b>Immune Health</b></h1>
+                        <button className={styles.carouselButton}>DISCOVER SPARKLING JUICE</button>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item className={styles.carouselPics}>
+                    <div className={styles.filterOnPic}>
+                        <img
+                        className="d-block w-100"
+                        src={SlideTwo}
+                        alt="Second slide"
+                        />
+                    </div>
 
-                <Carousel.Caption className={styles.carouselContent}>
-                    <h1>Support Your <br/> <b>Immune Health</b></h1>
-                    <button className={styles.carouselButton}>DISCOVER SPARKLING JUICE</button>
-                </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item className={styles.carouselPics}>
-                <div className={styles.filterOnPic}>
-                    <img
-                    className="d-block w-100"
-                    src={SlideThree}
-                    alt="Second slide"
-                    />
-                </div>
-                <Carousel.Caption className={styles.carouselContent}>
-                    <h1>Support Your <br/> <b>Immune Health</b></h1>
-                    <button className={styles.carouselButton}>DISCOVER SPARKLING JUICE</button>
-                </Carousel.Caption>
-            </Carousel.Item>
-        </Carousel>
+                    <Carousel.Caption className={styles.carouselContent}>
+                        <h1>Support Your <br/> <b>Immune Health</b></h1>
+                        <button className={styles.carouselButton}>DISCOVER SPARKLING JUICE</button>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item className={styles.carouselPics}>
+                    <div className={styles.filterOnPic}>
+                        <img
+                        className="d-block w-100"
+                        src={SlideThree}
+                        alt="Second slide"
+                        />
+                    </div>
+                    <Carousel.Caption className={styles.carouselContent}>
+                        <h1>Support Your <br/> <b>Immune Health</b></h1>
+                        <button className={styles.carouselButton}>DISCOVER SPARKLING JUICE</button>
+                    </Carousel.Caption>
+                </Carousel.Item>
+            </Carousel>
         </div>
     )
 }

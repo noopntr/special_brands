@@ -1,4 +1,5 @@
 import React from 'react'
+import './About.css'
 import {BsFillInfoCircleFill} from 'react-icons/bs'
 import playBtn from '../../Assets/Imgs/About/playBtn.png'
 

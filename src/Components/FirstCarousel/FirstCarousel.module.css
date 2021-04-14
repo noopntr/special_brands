@@ -1,6 +1,12 @@
-.carouselPics {
+.home {
     width: 100%;
-    height: 600px;
+}
+
+.carouselPics {
+    float: left;
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
 }
 
 .filterOnPic {

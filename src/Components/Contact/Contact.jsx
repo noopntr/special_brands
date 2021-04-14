@@ -1,4 +1,5 @@
 import React from 'react'
+import './Contact.css'
 import brandLogo from '../../Assets/BrandLogo/BrandLogo.svg'
 import { IoIosMail } from 'react-icons/io'
 import { CgPhone } from 'react-icons/cg'

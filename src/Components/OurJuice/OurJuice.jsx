@@ -1,5 +1,6 @@
 import { Card, Carousel } from 'react-bootstrap'
 import React from 'react'
+import './OurJuice.css'
 
 function OurJuice(props) {
     return (
