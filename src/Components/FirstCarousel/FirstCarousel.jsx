@@ -19,7 +19,7 @@ function FirstCarousel() {
                     </div>
                     <Carousel.Caption className={styles.carouselContent}>
                         <h1>Support Your <br/> <b>Immune Health</b></h1>
-                        <button className={styles.carouselButton}>DISCOVER SPARKLING JUICE</button>
+                        {/* <button className={styles.carouselButton}>DISCOVER SPARKLING JUICE</button> */}
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item className={styles.carouselPics}>
@@ -33,7 +33,7 @@ function FirstCarousel() {
 
                     <Carousel.Caption className={styles.carouselContent}>
                         <h1>Support Your <br/> <b>Immune Health</b></h1>
-                        <button className={styles.carouselButton}>DISCOVER SPARKLING JUICE</button>
+                        {/* <button className={styles.carouselButton}>DISCOVER SPARKLING JUICE</button> */}
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item className={styles.carouselPics}>
@@ -46,7 +46,7 @@ function FirstCarousel() {
                     </div>
                     <Carousel.Caption className={styles.carouselContent}>
                         <h1>Support Your <br/> <b>Immune Health</b></h1>
-                        <button className={styles.carouselButton}>DISCOVER SPARKLING JUICE</button>
+                        {/* <button className={styles.carouselButton}>DISCOVER SPARKLING JUICE</button> */}
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>

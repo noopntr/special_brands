@@ -1,16 +1,97 @@
 /* About */
 
-.about{
+.about {
   margin-left: auto;
   margin-right: auto;
 }
 
 .About-content {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  padding: 50px;
+}
+
+.about .title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.about .title h1 {
+  max-width: fit-content;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-bottom: 4px solid #741634;
+}
+
+.about img {
+  position: absolute;
+  left: 0;
+}
+
+.aboutBg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30em;
+  height: 20em;
+  background-image: url("../../Assets/Imgs/About/abt.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about p {
+  max-width: 50em;
+  letter-spacing: 1px;
+  width: 85%;
+}
+
+.txt-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+  width: fit-content;
+}
+
+.about h1 {
+  max-width: fit-content;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-bottom: 4px solid #741634;
+}
+
+/* About End */
+
+/* Responsive */
+
+@media screen and (max-width: 812px) {
+  /* About */
+
+  .about {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .About-content {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: left;
@@ -28,15 +109,16 @@
   .about img {
     position: absolute;
     left: 0;
+    width: 50%;
   }
-  
+
   .aboutBg {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 30em;
-    height: 20em;
-    background-image: url('../../Assets/Imgs/About/abt.png');
+    width: 15em;
+    height: 18em;
+    background-image: url("../../Assets/Imgs/About/abt.png");
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 25px;
@@ -45,11 +127,10 @@
   }
 
   .about p {
-    max-width: 50em;
     letter-spacing: 1px;
-    width: 85%;
+    width: 100%;
   }
-  
+
   .txt-content {
     display: flex;
     flex-direction: column;
@@ -58,90 +139,15 @@
     text-align: left;
     width: fit-content;
   }
-  
-  .about h1 {
+
+  .about .title h1 {
     max-width: fit-content;
     padding-left: 15px;
     padding-right: 15px;
     border-bottom: 4px solid #741634;
   }
-  
+
   /* About End */
-
-
-  /* Responsive */
-
-@media screen and (max-width: 812px) {
-  /* About */
-
-  .about{
-      width: 100%;
-      margin-left: auto;
-      margin-right: auto;
-    }
-  
-  .About-content {
-      width: 100%;
-      margin-left: auto;
-      margin-right: auto;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: left;
-      padding: 50px;
-    }
-  
-    .about .title {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-top: 100px;
-      margin-bottom: 50px;
-    }
-  
-    .about img {
-      position: absolute;
-      left: 0;
-      width: 50%;
-    }
-    
-    .aboutBg {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 15em;
-      height: 18em;
-      background-image: url('../../Assets/Imgs/About/abt.png');
-      background-repeat: no-repeat;
-      background-size: cover;
-      border-radius: 25px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-  
-    .about p {
-      letter-spacing: 1px;
-      width: 100%;
-    }
-    
-    .txt-content {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: flex-start;
-      text-align: left;
-      width: fit-content;
-    }
-    
-    .about h1 {
-      max-width: fit-content;
-      padding-left: 15px;
-      padding-right: 15px;
-      border-bottom: 4px solid #741634;
-    }
-    
-    /* About End */
 }
 
 /* Responsive End */

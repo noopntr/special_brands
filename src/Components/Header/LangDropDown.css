@@ -1,0 +1,23 @@
+.mb-1 {
+    border: none;
+}
+
+.language button {
+    background-color: transparent;
+    color: #1C2C4A;
+    border: none;
+    font-size: 1.2em!important;
+}
+
+.language button:hover {
+    background-color: transparent;
+    color: #1C2C4A;
+    border: none;
+}
+
+.dropdown-toggle {
+    background-color: transparent!important;
+    border-color: transparent!important;
+    color: #1C2C4A!important;
+    box-shadow: none!important;
+}

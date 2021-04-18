@@ -182,19 +182,10 @@
 
 /* Contact Left Branding */
 .contact {
-  overflow-x: hidden;
-  display: grid;
-  grid-template-areas: 
-  "right"
-  "left";
-  gap: 10px;
-  grid-template-columns: repeat(1, auto);
-  grid-template-rows: repeat(1, 100%);
+  display: flex;
   width: 100%;
-  margin-top: 100px;
-  min-width: 100%;
-  /* overflow: hidden; */
-  /* margin-bottom: 100vh; */
+  height: auto;
+  flex-direction: column-reverse;
 }
 
 .left {

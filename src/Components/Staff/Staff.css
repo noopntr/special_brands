@@ -17,6 +17,13 @@
     margin-top: 50px;
     margin-bottom: 50px;
   }
+
+  .staff .title h1 {
+    max-width: fit-content;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom: 4px solid #741634;
+  }
   
   .staff>img {
     position: absolute;
@@ -96,6 +103,13 @@
     width: 30px;
     height: 30px;
     background-color: #1C2C4A;
+  }
+
+  .staff .title h1 {
+    max-width: fit-content;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom: 4px solid #741634;
   }
   
   .staff .carousel-control-next {

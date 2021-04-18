@@ -1,8 +1,7 @@
 import React from 'react';
 import './Header.css'
 import BrandLogoNav from '../../Assets/BrandLogo/BrandLogo.svg'
-import Eng from '../../Assets/BrandLogo/Eng.svg'
-import { RiArrowDownSFill } from 'react-icons/ri'
+import LangDropDown from './LangDropDown';
 
 const Header = () => {
     return (
@@ -38,9 +37,7 @@ const Header = () => {
                     {/* Languages */}
                     <ul className="right-nav">
                         <li>
-                            <img style={{width: '21px', marginRight: '5px', marginBottom: '2px'}} src={Eng} alt="ENG" />
-                            <a href="/">ENG</a>
-                            <RiArrowDownSFill style={{paddingBottom:'4px', width: '20px'}} />
+                            <LangDropDown />
                         </li>
                     </ul>
             </nav>
