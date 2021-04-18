@@ -15,9 +15,10 @@
     justify-content: flex-end;
     align-items: center;
     width: 50%;
+    /* height: 650px; */
     background-image: url(../../Assets/Imgs/Contact/bg.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
   }
   
   .contact-branding {
@@ -172,3 +173,138 @@
   
   
   /* Contact End */
+
+
+  /* Responsive */
+
+@media screen and (max-width: 812px) {
+/* Contact */
+
+/* Contact Left Branding */
+.contact {
+  display: grid;
+  grid-template-areas: 
+  "right"
+  "left";
+  gap: 10px;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(1, 100%);
+  width: 100%;
+  margin-top: 100px;
+  min-width: 100%;
+  overflow: hidden;
+}
+
+.left {
+  grid-area: left;
+  width: 100%;
+}
+
+.right {
+  grid-area: right;
+  width: 100%;
+}
+
+.contact-left-side {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  background-image: url(../../Assets/Imgs/Contact/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact-socials ul{
+  margin-top: 45px;
+  font-size: 18px;
+}
+
+.contact-socials li {
+  width: 35px;
+  height: 35px;
+}
+
+.contact-socials a {
+  font-size: 16px;
+}
+
+/* Contact Left Branding End */
+
+
+/* Contact Right inputs */
+
+.contact form {
+  width: 100%;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  color: #1C2C4A;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.contact h1 {
+  border-bottom: 4px solid #C42852;
+}
+
+.contact-inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+input, textarea {
+  border: 1px solid #D6D6D6;
+  padding: 15px;
+  outline: none;
+}
+
+textarea {
+  resize: none;
+  height: 120px;
+}
+
+.contact-form button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 50px;
+  width: 100%;
+  border: 1px solid #F7931E;
+  color: #F7931E;
+  background: none;
+}
+
+.contact-form .flex-col, input, textarea, button{
+  margin-left: 15px!important;
+  margin-right: 15px!important;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.contact-form .flex-row{
+  display: flex;
+  flex-direction: column!important;
+}
+
+.contact-form .flex-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Contact Right inputs */
+
+/* Contact End */
+}

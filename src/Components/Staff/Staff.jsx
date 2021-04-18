@@ -13,71 +13,136 @@ function Staff(props) {
                 <h1>{props.title}</h1>
             </div>
             <img src={staffBg} alt="grape" />
-            <Carousel className="staff-carousel">
-                <Carousel.Item>
-                    <div className="carouselFlex">
-                        <Card style={{ width: '18rem' }}>
-                            <Card.Img variant="top" src={staffOne} />
-                            <Card.Body>
-                                <Card.Text>
-                                    <span className="card-text-h1">{props.firstName}</span>
-                                    {props.firstPosition}
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                        <Card style={{ width: '18rem' }}>
-                            <Card.Img variant="top" src={staffTwo} />
-                            <Card.Body>
-                                <Card.Text>
-                                    <span className="card-text-h1">{props.secondName}</span>
-                                    {props.secondPosition}
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                        <Card style={{ width: '18rem' }}>
-                            <Card.Img variant="top" src={staffThree} />
-                            <Card.Body>
-                                <Card.Text>
-                                    <span className="card-text-h1">{props.thirdName}</span>
-                                    {props.thirdPosition}
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                    </div>
-                </Carousel.Item>
+            <div className="desktop">
+                <Carousel className="staff-carousel">
+                    <Carousel.Item>
+                        <div className="carouselFlex">
+                            <Card style={{ width: '18rem' }}>
+                                <Card.Img variant="top" src={staffOne} />
+                                <Card.Body>
+                                    <Card.Text>
+                                        <span className="card-text-h1">{props.firstName}</span>
+                                        {props.firstPosition}
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                            <Card style={{ width: '18rem' }}>
+                                <Card.Img variant="top" src={staffTwo} />
+                                <Card.Body>
+                                    <Card.Text>
+                                        <span className="card-text-h1">{props.secondName}</span>
+                                        {props.secondPosition}
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                            <Card style={{ width: '18rem' }}>
+                                <Card.Img variant="top" src={staffThree} />
+                                <Card.Body>
+                                    <Card.Text>
+                                        <span className="card-text-h1">{props.thirdName}</span>
+                                        {props.thirdPosition}
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </div>
+                    </Carousel.Item>
 
-                <Carousel.Item>
-                <div className="carouselFlex">
-                        <Card style={{ width: '18rem' }}>
-                            <Card.Img variant="top" src={staffOne} />
-                            <Card.Body>
-                                <Card.Text>
-                                    <span className="card-text-h1">{props.firstName}</span>
-                                    {props.firstPosition}
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                        <Card style={{ width: '18rem' }}>
-                            <Card.Img variant="top" src={staffTwo} />
-                            <Card.Body>
-                                <Card.Text>
-                                    <span className="card-text-h1">{props.secondName}</span>
-                                    {props.secondPosition}
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                        <Card style={{ width: '18rem' }}>
-                            <Card.Img variant="top" src={staffThree} />
-                            <Card.Body>
-                                <Card.Text>
-                                    <span className="card-text-h1">{props.thirdName}</span>
-                                    {props.thirdPosition}
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                    </div>
-                </Carousel.Item>
-            </Carousel>
+                    <Carousel.Item>
+                    <div className="carouselFlex">
+                            <Card style={{ width: '18rem' }}>
+                                <Card.Img variant="top" src={staffOne} />
+                                <Card.Body>
+                                    <Card.Text>
+                                        <span className="card-text-h1">{props.firstName}</span>
+                                        {props.firstPosition}
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                            <Card style={{ width: '18rem' }}>
+                                <Card.Img variant="top" src={staffTwo} />
+                                <Card.Body>
+                                    <Card.Text>
+                                        <span className="card-text-h1">{props.secondName}</span>
+                                        {props.secondPosition}
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                            <Card style={{ width: '18rem' }}>
+                                <Card.Img variant="top" src={staffThree} />
+                                <Card.Body>
+                                    <Card.Text>
+                                        <span className="card-text-h1">{props.thirdName}</span>
+                                        {props.thirdPosition}
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </div>
+                    </Carousel.Item>
+                </Carousel>
+            </div>
+
+            {/* Responsive */}
+
+            <div className="mobile">
+                {/* for responsive */}
+
+            <div className="juice-content mobile">
+                <Carousel interval={null} style={{zIndex: '1'}}>
+                    <Carousel.Item>
+                        <div className="carouselFlex">
+                            <Card style={{ width: '18rem' }}>
+                                <Card.Img variant="top" src={staffThree} />
+                                <Card.Body>
+                                    <Card.Text>
+                                        <span className="card-text-h1">{props.thirdName}</span>
+                                        {props.thirdPosition}
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </div>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <div className="carouselFlex">
+                            <Card style={{ width: '18rem' }}>
+                                <Card.Img variant="top" src={staffThree} />
+                                <Card.Body>
+                                    <Card.Text>
+                                        <span className="card-text-h1">{props.thirdName}</span>
+                                        {props.thirdPosition}
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </div>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <div className="carouselFlex">
+                            <Card style={{ width: '18rem' }}>
+                                <Card.Img variant="top" src={staffThree} />
+                                <Card.Body>
+                                    <Card.Text>
+                                        <span className="card-text-h1">{props.thirdName}</span>
+                                        {props.thirdPosition}
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </div>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <div className="carouselFlex">
+                            <Card style={{ width: '18rem' }}>
+                                <Card.Img variant="top" src={staffThree} />
+                                <Card.Body>
+                                    <Card.Text>
+                                        <span className="card-text-h1">{props.thirdName}</span>
+                                        {props.thirdPosition}
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </div>
+                    </Carousel.Item>
+                </Carousel>
+            </div>
+            </div>
         </div>
     )
 }

@@ -72,4 +72,84 @@
   }
   
   /* Navbar End */
+
+
+  /* Responsive */
+
+  @media screen and (max-width: 812px) {
+
+    /* Navbar */
+    .navBar {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 8vh;
+      height: 80px;
+      width: 100%;
+    }
+
+    .BrandLogo {
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      top: 0.5%;
+      left: 10%;
+      background-color: #fff;
+      border-radius: 50%;
+      width: 70px;
+      height: 70px;
+    }
+
+    .BrandLogo img {
+      text-align: center;
+      width: 50px;
+      padding-top: 10px;
+    }
+
+    .nav-links {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 35%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .nav-links a {
+      color: #1C2C4A;
+      text-decoration: none;
+      letter-spacing: 1px;
+      font-size: 16px;
+    }
+
+    .nav-links a:hover {
+      color: #741634;
+      padding-bottom: 25px;
+      border-bottom: 1px solid #741634;
+      transition: 0.4s all ease;
+    }
+
+    ul {
+      margin-bottom: 0px;
+    }
+
+    li {
+      list-style: none;
+    }
+
+    .right-nav {
+      display: flex;
+      margin-right: 50px;
+      margin-left: -10%;
+    }
+
+    .right-nav a:hover {
+      color: #741634;
+      padding-bottom: 25px;
+      border-bottom: 1px solid #741634;
+      transition: 0.4s all ease;
+    }
+
+    /* Navbar End */
+  }
   

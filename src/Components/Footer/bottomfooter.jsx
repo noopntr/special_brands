@@ -30,7 +30,7 @@ const bottomFooter = () => {
       <div className="copyright">
           <p>Copyright 2021 © Special Brands. All rights reserved by <a href="https://nekodev.org/" target="_blank" rel="noreferrer">Nekodev.org</a>.</p>
       </div>
-
+      
       <div className="toTop">
           <a href="#navbar"><img src={topImg} alt=""/></a>
       </div>

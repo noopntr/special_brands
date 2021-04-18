@@ -2,11 +2,13 @@
     width: 100%;
 }
 
-.carouselPics {
+.carouselPics img {
     float: left;
     width: 100%;
     height: 550px;
     object-fit: cover;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
 }
 
 .filterOnPic {

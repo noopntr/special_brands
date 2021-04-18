@@ -10,12 +10,13 @@ import Contact from './Components/Contact/Contact';
 import Footer from './Components/Footer/footer';
 
 
+
 function App() {
   return (
     <div className="specialBrands">
         <Header />
         <FirstCarousel />
-        <About />
+        <About title="About Us" />
         <OurJuice title="Our Juice"/>
         {/* <SecCarousel /> */}
         <Staff
@@ -28,8 +29,8 @@ function App() {
           thirdPosition="Position"
         /> 
         <Contact />
-        <FollowUs></FollowUs>
-        <Footer></Footer>
+        <FollowUs />
+        <Footer />
     </div>
   );
 }

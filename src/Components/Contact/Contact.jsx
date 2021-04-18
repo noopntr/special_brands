@@ -10,7 +10,7 @@ function Contact() {
     return (
         <div id="contact" className="contact">
             {/* left side branding */}
-            <div className="contact-left-side">
+            <div className="contact-left-side left">
                 <div className="contact-branding">
                     <div className="contact-info">
                         <div className="brandingLogo">
@@ -22,7 +22,7 @@ function Contact() {
                             </div>
                             <div className="naming">
                                 <p>Address</p>
-                                <p>location, london</p>
+                                <p>11 Franklin street, London the UK</p>
                             </div>
                         </div>
 
@@ -33,7 +33,7 @@ function Contact() {
                             
                             <div className="naming">
                                 <p>Email</p>
-                                <p>contact@domain.com</p>
+                                <p>Nino@SpecialBrands.co.uk</p>
                             </div>
                         </div>
 
@@ -66,7 +66,7 @@ function Contact() {
                 </div>
             </div>
             {/* right side forms */}
-            <div className="contact-form">
+            <div className="contact-form right">
                 <div className="title">
                     <h1>Contact Us</h1>
                 </div>

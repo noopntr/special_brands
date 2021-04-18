@@ -27,13 +27,6 @@
     height: 350px;
   }
   
-  /* .staff .carousel-inner {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  } */
-  
   .staff .card {
     display: flex;
     flex-direction: column;
@@ -89,3 +82,45 @@
   }
   
   /* Staff End */
+
+@media screen and (max-width: 812px) { 
+  .mobile{
+    display: block;
+  }
+
+  .staff .carousel-control-prev {
+    margin-left: 15px;
+    left: 65%;
+    top: 0;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: #1C2C4A;
+  }
+  
+  .staff .carousel-control-next {
+    margin-right: 15px;
+    right: 0;
+    top: 0;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: #1C2C4A;
+  }
+  
+  .staff .carousel-control-prev .carousel-control-prev-icon {
+    width: 10px !important;
+    height: 10px !important;
+    position: static;
+  }
+  
+  .staff .carousel-control-next .carousel-control-next-icon {
+    width: 10px !important;
+    height: 10px !important;
+    position: static;
+  }
+
+  .staff .carousel {
+    margin-top: 20px;
+  }
+}
