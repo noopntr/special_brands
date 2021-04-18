@@ -123,4 +123,10 @@
   .staff .carousel {
     margin-top: 20px;
   }
+
+  .staff > img {
+      position: absolute;
+      left: 0;
+      width: 50%;
+  }
 }
