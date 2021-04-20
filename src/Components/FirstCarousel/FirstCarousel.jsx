@@ -4,6 +4,7 @@ import styles from './FirstCarousel.module.css'
 import SlideOne from '../../Assets/Imgs/CarouselImgs/1.png'
 import SlideTwo from '../../Assets/Imgs/CarouselImgs/2.jpg'
 import SlideThree from '../../Assets/Imgs/CarouselImgs/3.jpg'
+import { Translation } from 'react-i18next'
 
 function FirstCarousel() {
     return (
@@ -18,7 +19,9 @@ function FirstCarousel() {
                         />
                     </div>
                     <Carousel.Caption className={styles.carouselContent}>
-                        <h1>Support Your <br/> <b>Immune Health</b></h1>
+                        <Translation>
+                            {(t, { i18n }) => <h1> {t('FirstCarouselTxt.part1')} <br/> <b>{t('FirstCarouselTxt.part2')}</b></h1>}
+                        </Translation>
                         {/* <button className={styles.carouselButton}>DISCOVER SPARKLING JUICE</button> */}
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -32,7 +35,9 @@ function FirstCarousel() {
                     </div>
 
                     <Carousel.Caption className={styles.carouselContent}>
-                        <h1>Support Your <br/> <b>Immune Health</b></h1>
+                        <Translation>
+                            {(t, { i18n }) => <h1> {t('FirstCarouselTxt.part1')} <br/> <b>{t('FirstCarouselTxt.part2')}</b></h1>}
+                        </Translation>
                         {/* <button className={styles.carouselButton}>DISCOVER SPARKLING JUICE</button> */}
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -45,7 +50,9 @@ function FirstCarousel() {
                         />
                     </div>
                     <Carousel.Caption className={styles.carouselContent}>
-                        <h1>Support Your <br/> <b>Immune Health</b></h1>
+                        <Translation>
+                            {(t, { i18n }) => <h1> {t('FirstCarouselTxt.part1')} <br/> <b>{t('FirstCarouselTxt.part2')}</b></h1>}
+                        </Translation>
                         {/* <button className={styles.carouselButton}>DISCOVER SPARKLING JUICE</button> */}
                     </Carousel.Caption>
                 </Carousel.Item>

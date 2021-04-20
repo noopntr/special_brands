@@ -22,8 +22,8 @@ function App() {
             <div className="specialBrands">
                 <Header />
                 <FirstCarousel />
-                <About title="About Us" />
-                <OurJuice title="Our Juice"/>
+                <About />
+                <OurJuice />
                 {/* <SecCarousel /> */}
                 <Staff
                   title="Our Staff"

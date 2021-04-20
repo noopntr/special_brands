@@ -5,12 +5,15 @@ import staffBg from '../../Assets/Imgs/Staff/staffBg.png'
 import staffOne from '../../Assets/Imgs/Staff/1.png'
 import staffTwo from '../../Assets/Imgs/Staff/2.png'
 import staffThree from '../../Assets/Imgs/Staff/3.png'
+import { Translation } from 'react-i18next'
 
 function Staff(props) {
     return (
         <div id="staff" className="staff">
             <div className="title">
-                <h1>{props.title}</h1>
+                <Translation>
+                    {(t, { i18n }) => <h1>{t('Staff.title')}</h1>}
+                </Translation>
             </div>
             <img src={staffBg} alt="grape" />
             <div className="desktop">

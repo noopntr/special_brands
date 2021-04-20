@@ -2,6 +2,7 @@ import React from 'react';
 import './Header.css'
 import BrandLogoNav from '../../Assets/BrandLogo/BrandLogo.svg'
 import LangDropDown from './LangDropDown';
+import { Translation } from 'react-i18next';
 
 const Header = () => {
     return (
@@ -17,19 +18,29 @@ const Header = () => {
                 {/* NavMenu */}
                     <ul className="nav-links">
                         <li>
-                            <a href="/">Home</a>
+                            <Translation>
+                                {(t, { i18n }) => <a href="/">{t('NavLinks.part1')}</a>}
+                            </Translation>
                         </li>
                         <li>
-                            <a href="#about">About Us</a>
+                            <Translation>
+                                {(t, { i18n }) => <a href="#about">{t('NavLinks.part2')}</a>}
+                            </Translation>
                         </li>
                         <li>
-                            <a href="#products">Products</a>
+                            <Translation>
+                                {(t, { i18n }) => <a href="#products">{t('NavLinks.part3')}</a>}
+                            </Translation>
                         </li>
                         <li>
-                            <a href="#staff">Staff</a>
+                            <Translation>
+                                {(t, { i18n }) => <a href="#staff">{t('NavLinks.part4')}</a>}
+                            </Translation>
                         </li>
                         <li className="search-icon">
-                            <a href="#contact">Contact</a>
+                            <Translation>
+                                {(t, { i18n }) => <a href="#contact">{t('NavLinks.part5')}</a>}
+                            </Translation>
                         </li>
                         
                     </ul>

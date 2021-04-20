@@ -5,7 +5,7 @@ import { ButtonGroup, Dropdown, DropdownButton } from 'react-bootstrap'
 import Eng from '../../Assets/BrandLogo/Eng.svg'
 
 function LangDropDown(props) {
-    const { t, i18n } = useTranslation();
+    const { i18n } = useTranslation();
 
     function handleClick(lang) {
         i18n.changeLanguage(lang);
@@ -25,8 +25,7 @@ function LangDropDown(props) {
                 >
                     <Dropdown.Item onClick={() => handleClick('en')} eventKey="1">English<img style={{width: '21px', marginRight: '5px', marginBottom: '2px'}} src={Eng} alt="ENG" /></Dropdown.Item>
                     <Dropdown.Item onClick={() => handleClick('ka')} eventKey="2">ქართული</Dropdown.Item>
-                    <Dropdown.Item onClick={() => handleClick('he')} eventKey="3">עִבְרִית</Dropdown.Item>
-                    <h1>{t('About.title')}</h1>
+                    {/* <Dropdown.Item onClick={() => handleClick('he')} eventKey="3">עִבְרִית</Dropdown.Item> */}
                 </DropdownType>
                 ))}
             </div>

@@ -1,6 +1,7 @@
 import { Card, Carousel } from 'react-bootstrap'
 import React from 'react'
 import './OurJuice.css'
+import { Translation } from 'react-i18next'
 
 function OurJuice(props) {
 
@@ -9,7 +10,9 @@ function OurJuice(props) {
     return (
         <div id="products" className="our-juice background-blue">
             <div className="title">
-                <h1>{props.title}</h1>
+                <Translation>
+                    {(t, { i18n }) => <h1>{t('OurJuice.title')}</h1>}
+                </Translation>
             </div>
             <div className="juice-content desktop">
                 <Carousel interval={null} style={{zIndex: '1'}}>
@@ -18,7 +21,7 @@ function OurJuice(props) {
                             <Card style={{ width: '18rem' }}>
                                 <Card.Img variant="top" src='asd' className="purple" />
                                 <Card.Body>
-                                    <Card.Title>Juice Name</Card.Title>
+                                <Card.Title>Juice Name</Card.Title>
                                 </Card.Body>
                             </Card>
                             <Card style={{ width: '18rem' }}>
