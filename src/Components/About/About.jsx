@@ -4,14 +4,17 @@ import './About.css'
 // import playBtn from '../../Assets/Imgs/About/playBtn.png'
 import staffBg from '../../Assets/Imgs/Staff/staffBg.png'
 
+
 function About(props) {
+
     return (
         <div id="about" className="about">
             <img src={staffBg} alt="grape" />
-            <div className="title"><h1>{props.title}</h1></div>
+            {/* <div className="title"><h1>{t(About.title)}</h1></div> */}
             <div className="About-content">
                 <div className="txt-content">
-                    <p><b>Special brands’</b> company the biggest juice producer in Georgia.  
+                    <p>
+                        {/* <b>Special brands’</b> company the biggest juice producer in Georgia.  
                         The Company is a worldwide solid way of life mark that moves and improves stimulating 
                         living through naturally mixed entire products of the soil smoothies, bowls, juices, 
                         cold-squeezed shots, lifts, tidbits, and supper substitutions. Fruit juice is 100% pure 
@@ -25,7 +28,8 @@ function About(props) {
                         No Cups! isn’t only an aphorism however a critical reality for us. 
                         Our one of a kind idea of getting a charge out of juice specifically 
                         from its common state is intended to be both energizing for the 
-                        shopper and healthy for the earth.
+                        shopper and healthy for the earth. */}
+                        {('AboutContent.part1')}
                     </p>
                     {/* <button className="defButton">
                         <BsFillInfoCircleFill /><a href="/">About Us</a>

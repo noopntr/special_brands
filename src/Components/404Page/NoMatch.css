@@ -1,0 +1,45 @@
+.noMatch {
+    width: 100%;
+    height: 100%;
+}
+
+.noMatch .noMatch-bg img {
+    position: absolute;
+    width: 50%;
+    top: 0;
+    left: 0;
+}
+
+.errorPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.error h1 {
+    font-size: 10em;
+    opacity: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50, -50);
+    font-size: 5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 812px) {
+    .noMatch .noMatch-bg img {
+        width: 100%;
+    }
+}

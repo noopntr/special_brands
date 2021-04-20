@@ -17,7 +17,7 @@ const Header = () => {
                 {/* NavMenu */}
                     <ul className="nav-links">
                         <li>
-                            <a href="#navbar">Home</a>
+                            <a href="/">Home</a>
                         </li>
                         <li>
                             <a href="#about">About Us</a>
@@ -26,10 +26,10 @@ const Header = () => {
                             <a href="#products">Products</a>
                         </li>
                         <li>
-                            <a href="/">Staff</a>
+                            <a href="#staff">Staff</a>
                         </li>
                         <li className="search-icon">
-                            <a href="/">Contact</a>
+                            <a href="#contact">Contact</a>
                         </li>
                         
                     </ul>
