@@ -6,39 +6,19 @@
         "part4": "Staff",
         "part5": "Contact"
     },
-
     "FirstCarouselTxt": {
         "part1": "Support Your",
         "part2": "Immune Health"
     },
-
     "About": {
         "title": "About Us"
     },
-    "AboutContent": {
-        "part1": "special brands’ company the biggest juice producer in Georgia. ",
-        "part2": "The Company is a worldwide solid way of life mark that moves and improves ",
-        "part3": "stimulating living through naturally mixed entire products of the soil smoothies,",
-        "part4": "bowls, juices, cold-squeezed shots, lifts, tidbits, and supper substitutions. ",
-        "part5": "Fruit juice is 100% pure juice made from the flesh of fresh fruit or from whole fruit, ",
-        "part6": "depending on the type used. It is not permitted to add sugars, ",
-        "part7": "sweeteners, preservatives, flavorings or colorings to fruit juice. ",
-        "part8": "Special brands’ To  produce as much more juices and sell them on the international market. ",
-        "part9": "It has in excess around the world. ",
-        "part10": "Our each way and choice prompts the target of one clean earth. ",
-        "part11": "From our assurance to be completely compostable to the lively, ",
-        "part12": "natural organic product we decide for our clients – All Juice, No Cups! ",
-        "part13": "isn’t only an aphorism however a critical reality for us. Our one of a kind ",
-        "part14": "idea of getting a charge out of juice specifically from its common state is ",
-        "part15": "intended to be both energizing for the shopper and healthy for the earth."
-    },
+    "AboutContent": "{{company}}’ company the biggest juice producer in Georgia. The Company is a worldwide solid way of life mark that moves and improves stimulating living through naturally mixed entire products of the soil smoothies, bowls, juices, cold-squeezed shots, lifts, tidbits, and supper substitutions. Fruit juice is 100% pure juice made from the flesh of fresh fruit or from whole fruit, depending on the type used. It is not permitted to add sugars, sweeteners, preservatives, flavorings or colorings to fruit juice.  {{company}}’ To  produce as much more juices and sell them on the international market. It   has   in excess around the world.Our each way and choice prompts the target of one clean earth. From our assurance to be completely compostable to the lively, natural organic product we decide for our clients – All Juice, No Cups! isn’t only an aphorism however a critical reality for us. Our one of a kind idea of getting a charge out of juice specifically from its common state is intended to be both energizing for the shopper and healthy for the earth.",
 
     "OurJuice": {
         "title": "Our Juice"
     },
-
     "Staff": {
         "title": "Staff"
     }
-    
 }

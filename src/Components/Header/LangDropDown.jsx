@@ -4,6 +4,20 @@ import './LangDropDown.css'
 import { ButtonGroup, Dropdown, DropdownButton } from 'react-bootstrap'
 import Eng from '../../Assets/BrandLogo/Eng.svg'
 
+
+const languages = [
+    {
+        code: 'en',
+        name: 'English',
+        country_code: 'gb'
+    },
+    {
+        code: 'ka',
+        name: 'ქართული',
+        country_code: 'ka'
+    }
+]
+
 function LangDropDown(props) {
     const { i18n } = useTranslation();
 
@@ -13,22 +27,16 @@ function LangDropDown(props) {
 
     return (
         <>
-            <div className="mb-1 language defButton">
-                {[DropdownButton].map((DropdownType, idx) => (
-                <DropdownType
-                    as={ButtonGroup}
-                    key={idx}
-                    id={`dropdown-button-drop-${idx}`}
-                    size="lg"
-                    title="Lang"
-                    aria-expanded="false"
-                >
-                    <Dropdown.Item onClick={() => handleClick('en')} eventKey="1">English<img style={{width: '21px', marginRight: '5px', marginBottom: '2px'}} src={Eng} alt="ENG" /></Dropdown.Item>
-                    <Dropdown.Item onClick={() => handleClick('ka')} eventKey="2">ქართული</Dropdown.Item>
-                    {/* <Dropdown.Item onClick={() => handleClick('he')} eventKey="3">עִבְרִית</Dropdown.Item> */}
-                </DropdownType>
-                ))}
-            </div>
+            <div className="dropdown">
+                    <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Lang
+                    </button>
+                    <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        {languages.map(({ code, name, country_code }) =>
+                            <li><a className="dropdown-item" key={country_code}>{name}</a></li>
+                        )}
+                    </ul>
+                </div>
         </>
     )
 }

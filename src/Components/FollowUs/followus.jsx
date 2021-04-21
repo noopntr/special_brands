@@ -1,4 +1,4 @@
-import './FollowUs.css';
+import './followus.css';
 import React from 'react';
 import InstaSamka from '../../Assets/social-icons/instagram.svg';
 
