@@ -30,10 +30,10 @@ const FollowUs = () => {
 
       <div className="follow-container">
         {
-          followArr.map((e) => {
+          followArr.map((e, i) => {
             return (
               
-                <div className="follow-card" style={{'width': window.innerWidth/followArr.length}}>
+                <div className="follow-card" style={{'width': window.innerWidth/followArr.length}} key={i}>
                   <div style={{filter: 'brightness(0.7)'}}><img src={e.img} alt=""/></div>
                   <div className="follow-hover">
                     <a href={e.link} target="_blank" rel="noreferrer"><img src={InstaSamka} alt="" /></a>
