@@ -5,8 +5,14 @@ import { CgPhone } from 'react-icons/cg'
 import { TiLocation } from 'react-icons/ti'
 import { AiFillFacebook, AiOutlineInstagram, AiFillYoutube, AiOutlineTwitter } from 'react-icons/ai'
 
+import {useTranslation} from 'react-i18next'
+
 
 function ContactLeft() {
+
+    const {t} = useTranslation()
+
+
     return (
         <div className="contact-left-side left">
             <div className="contact-branding">
@@ -19,8 +25,8 @@ function ContactLeft() {
                             <TiLocation />
                         </div>
                         <div className="naming">
-                            <p>Address</p>
-                            <p>11 Franklin street, London the UK</p>
+                            <p>{t('Contact.address_title')}</p>
+                            <p>{t('Contact.address')}</p>
                         </div>
                     </div>
 
@@ -30,8 +36,8 @@ function ContactLeft() {
                         </div>
                         
                         <div className="naming">
-                            <p>Email</p>
-                            <p>Nino@SpecialBrands.co.uk</p>
+                            <p>{t('Contact.email_title')}</p>
+                            <p>{t('Contact.email')}</p>
                         </div>
                     </div>
 
@@ -40,8 +46,8 @@ function ContactLeft() {
                             <CgPhone />
                         </div>
                         <div className="naming">
-                            <p>Phone</p>
-                            <p>+000 123 456 789</p>
+                            <p>{t('Contact.phone_title')}</p>
+                            <p>{t('Contact.phone')}</p>
                         </div>
                     </div>
                     <div className="contact-socials">

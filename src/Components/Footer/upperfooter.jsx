@@ -1,10 +1,20 @@
 import './footer.css';
+import { useTranslation } from 'react-i18next'
+
 import React from 'react';
 
 import logo from '../../Assets/BrandLogo/BrandLogo.svg';
 
 
-const upperFooter = () => {
+
+
+
+const UpperFooter = () => {
+
+  
+ 
+  const {t} = useTranslation()
+  
   return (
     <div className='upperfooter-holder'>
       <div className="upperfooter-logo">
@@ -14,19 +24,19 @@ const upperFooter = () => {
       <div className="upperfooter-menu">
         <ul className="nav-links">
           <li>
-            <a href="#navbar">Home</a>
+            <a href="#navbar">{t('NavLinks.part1')}</a>
           </li>
           <li>
-            <a href="#about">About Us</a>
+            <a href="#about">{t('NavLinks.part2')}</a>
           </li>
           <li>
-            <a href="#products">Products</a>
+            <a href="#products">{t('NavLinks.part3')}</a>
           </li>
           <li>
-            <a href="/">Staff</a>
+            <a href="/">{t('NavLinks.part4')}</a>
           </li>
           <li className="search-icon">
-            <a href="/">Contact</a>
+            <a href="/">{t('NavLinks.part5')}</a>
           </li>
         </ul>
       </div>
@@ -37,4 +47,4 @@ const upperFooter = () => {
 }
 
 
-export default upperFooter;
+export default UpperFooter;

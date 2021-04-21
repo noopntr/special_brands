@@ -2,6 +2,8 @@ import './followus.css';
 import React from 'react';
 import InstaSamka from '../../Assets/social-icons/instagram.svg';
 
+import { useTranslation} from 'react-i18next'
+ 
 
 import img1 from '../../Assets/Imgs/followImgs/img1.png';
 import img2 from '../../Assets/Imgs/followImgs/img2.png';
@@ -13,6 +15,8 @@ import img6 from '../../Assets/Imgs/followImgs/img6.png';
 
 
 const FollowUs = () => {
+  const {t} = useTranslation()
+  
   const followArr = [
     { img: img1, link: 'https://www.instagram.com/' },
     { img: img2, link: 'https://www.instagram.com/' },
@@ -22,11 +26,11 @@ const FollowUs = () => {
     { img: img6, link: 'https://www.instagram.com/' },
   ]
 
-
+  
 
   return (
     <div className="follow-holder">
-      <h1>Follow Us On Instagram: #Juice</h1>
+      <h1>{t('Followus.title')}</h1>
 
       <div className="follow-container">
         {

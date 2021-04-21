@@ -13,12 +13,36 @@
     "About": {
         "title": "About Us"
     },
-    "AboutContent": "{{company}}’ company the biggest juice producer in Georgia. The Company is a worldwide solid way of life mark that moves and improves stimulating living through naturally mixed entire products of the soil smoothies, bowls, juices, cold-squeezed shots, lifts, tidbits, and supper substitutions. Fruit juice is 100% pure juice made from the flesh of fresh fruit or from whole fruit, depending on the type used. It is not permitted to add sugars, sweeteners, preservatives, flavorings or colorings to fruit juice.  {{company}}’ To  produce as much more juices and sell them on the international market. It   has   in excess around the world.Our each way and choice prompts the target of one clean earth. From our assurance to be completely compostable to the lively, natural organic product we decide for our clients – All Juice, No Cups! isn’t only an aphorism however a critical reality for us. Our one of a kind idea of getting a charge out of juice specifically from its common state is intended to be both energizing for the shopper and healthy for the earth.",
+    "AboutContent": {
+        "part1": "<strong>{{company}}</strong>’ company the biggest juice producer in Georgia. The Company is a worldwide solid way of life mark that moves and improves stimulating living through naturally mixed entire products of the soil smoothies, bowls, juices, cold-squeezed shots, lifts, tidbits, and supper substitutions. Fruit juice is 100% pure juice made from the flesh of fresh fruit or from whole fruit, depending on the type used. It is not permitted to add sugars, sweeteners, preservatives, flavorings or colorings to fruit juice.  <strong>{{company}}</strong>’ To  produce as much more juices and sell them on the international market. It   has   in excess around the world.",
+        "part2": "Our each way and choice prompts the target of one clean earth. From our assurance to be completely compostable to the lively, natural organic product we decide for our clients – All Juice, No Cups! isn’t only an aphorism however a critical reality for us. Our one of a kind idea of getting a charge out of juice specifically from its common state is intended to be both energizing for the shopper and healthy for the earth."
+    },
 
     "OurJuice": {
         "title": "Our Juice"
     },
     "Staff": {
         "title": "Staff"
+    }, 
+
+    "Contact": {
+        "title": "Contact Us",
+        "address_title": "Address",
+        "address": "11 Franklin street London The UK. N15 6 qh.",
+        "phone_title": "Phone",
+        "phone": "+000 123 456 789",
+        "email_title": "Email",
+        "email": "nino@specialbrands.co.uk", 
+
+        "name_placeholder": "Name Lastname",
+        "email_placeholder": "Email",
+        "subject_placeholder": "Subject",
+        "message_placeholder": "Message",
+        "send_message": "Send Message"
+        
+    },
+
+    "Followus": {
+        "title": "Follow Us On Instagram: #Juice"
     }
 }
