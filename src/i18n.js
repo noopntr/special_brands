@@ -26,7 +26,7 @@ i18n
         order: ['cookie', 'htmlTag', 'localStorage', 'path', 'subdomain'],
         caches: ['cookie'],
     },
-    debug: true,
+    debug: false,
     supportedLngs: ['en', 'ka', 'he'],
     interpolation: {
       escapeValue: false, // not needed for react as it escapes by default
