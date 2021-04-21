@@ -3,6 +3,7 @@ import './LangDropDown.css'
 
 import i18n from 'i18next';
 import cookies from 'js-cookie'
+import { Dropdown } from 'react-bootstrap';
 
 
 
@@ -33,26 +34,26 @@ function LangDropDown(props) {
     
 
     return (
-        <div className="dropdown">
-            <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        <Dropdown>
+            <Dropdown.Toggle>
                 <span className={`flag-icon flag-icon-${lang.country_code} mx-2`}></span>
                 {lang.name}
-            </button>
-            <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            </Dropdown.Toggle>
+            <Dropdown.Menu>
                 {languages.map(({ code, name, country_code }) =>
                     <li key={country_code}>
 
-                        <button className="dropdown-item" onClick={() => {
+                        <Dropdown.Item  onClick={() => {
                             i18n.changeLanguage(code)
                             setLang(languages.find(l => l.code === code));
                         }}>
                             <span className={`flag-icon flag-icon-${country_code} mx-2`}></span>
                             {name}
-                        </button>
+                        </Dropdown.Item >
                     </li>
                 )}
-            </ul>
-        </div>
+            </Dropdown.Menu>
+        </Dropdown>
     )
 }
 

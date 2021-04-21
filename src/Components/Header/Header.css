@@ -63,14 +63,7 @@
     margin-right: 50px;
     margin-left: -10%;
   }
-  
-  .right-nav a:hover {
-    color: #741634;
-    padding-bottom: 25px;
-    border-bottom: 1px solid #741634;
-    transition: 0.4s all ease;
-  }
-  
+    
   /* Navbar End */
 
 
