@@ -1,8 +1,9 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import './LangDropDown.css'
 
 import i18n from 'i18next';
 import cookies from 'js-cookie'
+import { Dropdown } from 'react-bootstrap';
 
 
 
@@ -30,29 +31,27 @@ function LangDropDown(props) {
     let currentLanguage = languages.find(l => l.code === currentLangCode)
 
     const [lang, setLang] = useState(currentLanguage);
-    
+
 
     return (
-        <div className="dropdown">
-            <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        <Dropdown>
+            <Dropdown.Toggle variant="success" id="dropdown-basic">
                 <span className={`flag-icon flag-icon-${lang.country_code} mx-2`}></span>
                 {lang.name}
-            </button>
-            <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                {languages.map(({ code, name, country_code }) =>
-                    <li key={country_code}>
+            </Dropdown.Toggle>
 
-                        <button className="dropdown-item" onClick={() => {
-                            i18n.changeLanguage(code)
-                            setLang(languages.find(l => l.code === code));
-                        }}>
-                            <span className={`flag-icon flag-icon-${country_code} mx-2`}></span>
-                            {name}
-                        </button>
-                    </li>
+            <Dropdown.Menu>
+                {languages.map(({ code, name, country_code }) =>
+                    <Dropdown.Item key={country_code} onClick={() => { 
+                        i18n.changeLanguage(code) 
+                        setLang(languages.find(l => l.code === code))
+                    }}>
+                        <span className={`flag-icon flag-icon-${country_code} mx-2`}></span>
+                        {name}
+                    </Dropdown.Item>
                 )}
-            </ul>
-        </div>
+            </Dropdown.Menu>
+        </Dropdown>
     )
 }
 
