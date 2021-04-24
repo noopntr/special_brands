@@ -6,11 +6,9 @@ export function TranslatedAboutContent() {
     <Translation>
       {
         (t, { i18n }) => 
-        <div className="title">
-            <p>
+        <div className="txt-content">
                 <p dangerouslySetInnerHTML={{__html: t('AboutContent.part1', {company: 'Special Brands'})}}></p>
                 <p dangerouslySetInnerHTML={{__html: t('AboutContent.part2', {company: 'Special Brands'})}}></p>
-            </p>
         </div>
       }
     </Translation>

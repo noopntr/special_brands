@@ -1,7 +1,22 @@
 /* Navbar */
 
+.mobile {
+  display: none;
+}
+
+.navbar, header {
+  position: sticky;
+  z-index: 999;
+  top: 0;
+  width: 100%;
+  background: #fff;
+  z-index: 999;
+}
+
 .navBar {
     display: flex;
+    position: sticky;
+    top: 0;
     justify-content: center;
     align-items: center;
     min-height: 8vh;
@@ -14,7 +29,7 @@
     display: flex;
     justify-content: center;
     top: -5px;
-    left: 20%;
+    left: 10%;
     background-color: #fff;
     border-radius: 50%;
     width: 120px;
@@ -31,16 +46,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 35%;
+    width: 40%;
     margin-left: auto;
     margin-right: auto;
+    transition: 0.8s all ease;
   }
   
   .nav-links a {
     color: #1C2C4A;
     text-decoration: none;
     letter-spacing: 1px;
-    font-size: 16px;
+    font-size: 1em;
   }
   
   .nav-links a:hover {
@@ -63,22 +79,26 @@
     margin-right: 50px;
     margin-left: -10%;
   }
+
+  .scrollBar{
+    width: 100%;
+    background: #EBEBEB;
+    transition: 0.8s all ease;
+  }
     
   /* Navbar End */
 
 
   /* Responsive */
 
-  @media screen and (max-width: 812px) {
+  @media screen and (max-width: 992px) {
 
-    /* Navbar */
-    .navBar {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 8vh;
-      height: 80px;
-      width: 100%;
+    .mobile {
+      display: none;
+    }
+
+    nav {
+      transition: 0.8s all ease;
     }
 
     .BrandLogo {
@@ -99,48 +119,117 @@
       padding-top: 10px;
     }
 
-    .nav-links {
+    .mobile-nav {
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
       align-items: center;
-      width: 35%;
-      margin-left: auto;
-      margin-right: auto;
+      min-height: 8vh;
+      height: 80px;
+      width: 100%;
+    }
+
+    .nav-links a {
+      color: #1C2C4A;
+      text-decoration: none;
+    }
+  }
+
+  @media screen and (max-width: 812px) {
+    .right-nav {
+      display: flex;
+      margin-right: 0;
+      margin-left: 0;
+      z-index: 4;
+    }
+
+    .hamburger {
+      position: absolute;
+      right: 5%;
+      cursor: pointer;
+      width: 20px;
+      height: 20px;
+      z-index: 4;
+    }
+
+    .BrandLogo {
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      top: 5%;
+      left: 10%;
+      background-color: #fff;
+      border-radius: 50%;
+      width: 70px;
+      height: 70px;
+    }
+    
+    .navbar{
+      width: 100%;
+      height: auto;
+    }
+
+    .mobb {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 100vh;
+    }
+
+    .nav-links {
+      position: fixed!important;
+    }
+
+    .nav-links {
+      background-color: #EBEBEB;
+      background-image: url('../../Assets/Imgs/404/404.png');
+      background-position: left top;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      z-index: 2;
+    }
+
+    .anim {
+      transition: 0.8s all ease;
+    }
+
+    .BrandLogo img {
+      text-align: center;
+      width: 50px;
+      padding-top: 10px;
     }
 
     .nav-links a {
       color: #1C2C4A;
       text-decoration: none;
       letter-spacing: 1px;
-      font-size: 16px;
+      /* font-size: 16px; */
+      transition: all 1s ease;
     }
-
+    
     .nav-links a:hover {
-      color: #741634;
-      padding-bottom: 25px;
-      border-bottom: 1px solid #741634;
-      transition: 0.4s all ease;
+      border: none!important;
     }
 
-    ul {
-      margin-bottom: 0px;
+    .nav-links li {
+      margin-top: 15px;
     }
 
     li {
       list-style: none;
-    }
-
-    .right-nav {
-      display: flex;
-      margin-right: 50px;
-      margin-left: -10%;
-    }
-
-    .right-nav a:hover {
-      color: #741634;
-      padding-bottom: 25px;
-      border-bottom: 1px solid #741634;
-      transition: 0.4s all ease;
     }
 
     /* Navbar End */

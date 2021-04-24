@@ -15,6 +15,7 @@
     "install": "^0.13.0",
     "jquery": "^3.6.0",
     "js-cookie": "^2.2.1",
+    "lottie-web": "^5.7.8",
     "npm": "^7.10.0",
     "popper": "^1.0.1",
     "popper.js": "^1.16.1",

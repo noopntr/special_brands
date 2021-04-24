@@ -43,3 +43,9 @@
 .carouselButton:hover {
     width: 280px;
 }
+
+@media screen and (max-width: 812px) {
+    .carouselContent h1 {
+        font-size: 2em;
+    }
+}

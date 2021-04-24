@@ -141,6 +141,12 @@
   display: none!important;
 }
 
+.title h1 {
+  font-size: 2em;
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .juice-content {
   display: block;
   flex-direction: row;

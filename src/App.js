@@ -13,7 +13,7 @@ import NoMatch from './Components/404Page/NoMatch';
 import React, { useState, useEffect } from 'react'
 
 
-import Lottie from 'react-lottie';
+import Lottie from 'react-lottie'
 import * as animationData from './Assets/mango.json'
 
 
