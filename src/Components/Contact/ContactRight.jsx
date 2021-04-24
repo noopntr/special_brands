@@ -14,7 +14,7 @@ function ContactRight() {
     let success =   <useTranslation>
                         {t('Contact.message_sent')}
                     </useTranslation>;
-    let error = "ar gaigzavna";
+    let error= "";
 
     function sendEmail(e) {
     e.preventDefault();
