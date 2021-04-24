@@ -50,7 +50,11 @@
         "email_placeholder": "ელ. ფოსტა",
         "subject_placeholder": "თემა",
         "message_placeholder": "შეტყობინება",
-        "send_message": "შეტყობინების გაგზავნა"
+        "send_message": "შეტყობინების გაგზავნა",
+
+        "modal_close": "დახურვა",
+        "message_sent": "მადლობას გიხდით თქვენი შეტყობინებისთვის. 👌",
+        "message_error": "უფს.. 😳, თქვენი შეტყობინება ვერ გამოიგზავნა, მოგვიანებით სცადეთ."
     },
 
     "Followus": {

@@ -38,8 +38,11 @@
         "email_placeholder": "Email",
         "subject_placeholder": "Subject",
         "message_placeholder": "Message",
-        "send_message": "Send Message"
-        
+        "send_message": "Send Message",
+
+        "modal_close": "close",
+        "message_sent": "Thank you for your message. It has been sent. 👌",
+        "message_error": "Oops 😳, Your message could not be sent, try again later."
     },
 
     "Followus": {

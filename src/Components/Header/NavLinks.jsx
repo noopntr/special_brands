@@ -38,7 +38,7 @@ function NavLinks() {
                 </div>
             </ul>
             <div className="right-nav desktop">
-                    <LangDropDown />
+                <LangDropDown />
             </div>
         </div>
     )

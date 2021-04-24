@@ -1,6 +1,18 @@
 /* Contact */
 
 /* Contact Left Branding */
+
+.msg {
+  display: none;
+}
+
+.appear {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
 .contact {
     display: flex;
     flex-direction: row;
@@ -169,6 +181,11 @@
   .contact-form .flex-col input, textarea {
     width: 100%;
   }
+
+  .modal-header {
+    display: flex;
+    flex-direction: row;
+  }
   /* Contact Right inputs */
   
   
@@ -178,6 +195,12 @@
   /* Responsive */
 
 @media screen and (max-width: 812px) {
+
+.modal-header {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
 /* Contact */
 
 /* Contact Left Branding */

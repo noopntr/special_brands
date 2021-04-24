@@ -153,6 +153,10 @@
       z-index: 4;
     }
 
+    .right-nav {
+      order: -1;
+    }
+
     .hamburger {
       position: absolute;
       right: 5%;
@@ -251,9 +255,6 @@
       }
       0% {
         left: 100%;
-      }
-      100% {
-        visibility: 100%;
       }
     }
   }
