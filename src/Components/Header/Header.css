@@ -41,12 +41,21 @@
     width: 90px;
     padding-top: 15px;
   }
+
+  .navlinksmob {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
   
   .nav-links {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 40%;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
     transition: 0.8s all ease;
@@ -76,6 +85,8 @@
   
   .right-nav {
     display: flex;
+    align-items: center;
+    justify-content: center;
     margin-right: 50px;
     margin-left: -10%;
   }
@@ -91,7 +102,7 @@
 
   /* Responsive */
 
-  @media screen and (max-width: 992px) {
+  @media screen and (max-width: 1224px) {
 
     .mobile {
       display: none;
@@ -115,7 +126,7 @@
 
     .BrandLogo img {
       text-align: center;
-      width: 50px;
+      width: 60px;
       padding-top: 10px;
     }
 
@@ -202,10 +213,6 @@
       z-index: 2;
     }
 
-    .anim {
-      transition: 0.8s all ease;
-    }
-
     .BrandLogo img {
       text-align: center;
       width: 50px;
@@ -233,5 +240,21 @@
     }
 
     /* Navbar End */
+
+    .nav-links {
+      animation: navbarAnim 0.7s ease;
+    }
+
+    @keyframes navbarAnim {
+      100% {
+        right: 0%;
+      }
+      0% {
+        left: 100%;
+      }
+      100% {
+        visibility: 100%;
+      }
+    }
   }
   

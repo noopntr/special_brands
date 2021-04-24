@@ -6,7 +6,7 @@ import LangDropDown from './LangDropDown'
 
 function NavLinks() {
     return (
-        <>
+        <div className="navlinksmob">
             <ul className="nav-links">
                 <li>
                     <Translation>
@@ -28,17 +28,19 @@ function NavLinks() {
                         {(t, { i18n }) => <a href="#staff">{t('NavLinks.part4')}</a>}
                     </Translation>
                 </li>
-                <li className="search-icon">
+                <li>
                     <Translation>
                         {(t, { i18n }) => <a href="#contact">{t('NavLinks.part5')}</a>}
                     </Translation>
                 </li>
+                <div className="right-nav mobile">
+                    <LangDropDown />
+                </div>
             </ul>
-
-            <div className="right-nav">
-                <LangDropDown />
+            <div className="right-nav desktop">
+                    <LangDropDown />
             </div>
-        </>
+        </div>
     )
 }
 

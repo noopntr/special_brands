@@ -101,17 +101,17 @@
 
 @media screen and (max-width: 812px) {
 
+  .follow-holder h1 {
+    font-size: 1em;
+  }
+
   .upperfooter-holder {
     display: none!important;
   }
 
   .footer-holder {
-    height: 100px!important;
-  }
-
-  .footer-holder {
-    height: auto;
     width: 100%;
+    height: 80px!important;
   }
 
   .bottomfooter-holder {
@@ -143,7 +143,7 @@
   }
 
   .copyright p {
-    font-size: .9em;
+    font-size: .8em;
     margin: 0;
   }
 
