@@ -5,7 +5,7 @@ import NavLinks from './NavLinks';
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { GrFormClose } from 'react-icons/gr'
 
-const Header = () => {
+const Header = (props) => {
     const [open, setOpen] = useState(false);
 
     const hamburgerIcon = <GiHamburgerMenu className="hamburger" onClick={()=> setOpen(!open)} />
@@ -22,7 +22,7 @@ const Header = () => {
                 </div>
                     { open ? closeIcon : hamburgerIcon }
 
-                    { open && <NavLinks onClick={()=> setOpen(!open)} className="mobb" />}
+                    { open && <NavLinks className="mobb" />}
 
             </nav>
         </header>
