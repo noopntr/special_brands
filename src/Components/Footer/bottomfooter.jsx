@@ -32,7 +32,7 @@ const bottomFooter = () => {
       </div>
       
       <div className="toTop">
-          <a href="#navbar"><img src={topImg} alt=""/></a>
+          <a href="#home"><img src={topImg} alt=""/></a>
       </div>
     </div>
   );

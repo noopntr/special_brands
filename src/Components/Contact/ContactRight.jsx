@@ -14,7 +14,9 @@ function ContactRight() {
     let success =   <useTranslation>
                         {t('Contact.message_sent')}
                     </useTranslation>;
-    let error= "Loading...";
+    let error   =   <useTranslation>
+                        {t('Contact.message_error')}
+                    </useTranslation>;
 
     function sendEmail(e) {
     e.preventDefault();
