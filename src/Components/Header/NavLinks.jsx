@@ -1,11 +1,10 @@
-import React from 'react'
+import React from 'react';
 import { Translation } from 'react-i18next'
 import './Header.css'
 import LangDropDown from './LangDropDown'
 
 
 function NavLinks() {
-
     return (
         <div className="navlinksmob">
             <ul className="nav-links">
