@@ -51,6 +51,7 @@ function App() {
       <Switch>
         <Route exact path='/'>
           <div className="specialBrands">
+            <div id="home"></div>
             <Header />
             <FirstCarousel />
             <About />

@@ -177,13 +177,8 @@ li {
     width: 70px;
     height: 70px;
   }
-
-  .navbar {
-    width: 100%;
-    height: auto;
-  }
-
-  .nav-links {
+  
+  .navlinksmob .nav-links {
     background-color: #ebebeb;
     background-image: url("../../Assets/Imgs/404/404.png");
     background-position: left top;
@@ -203,6 +198,10 @@ li {
     animation: navbarAnim 0.5s ease;
   }
 
+  .nav-links-closing {
+    animation: navbarClosingAnim 0.5s ease;
+  }
+
   .BrandLogo img {
     text-align: center;
     width: 50px;
@@ -217,6 +216,7 @@ li {
 
   .nav-links a:hover {
     border: none !important;
+    padding-bottom: 4px;
   }
 
   .nav-links li {
@@ -236,6 +236,15 @@ li {
 
     0% {
       left: 100%;
+    }
+  }
+
+  @keyframes navbarClosingAnim {
+    0% {
+      right: 100%;
+    }
+    100% {
+      left: 50%;
     }
   }
 }

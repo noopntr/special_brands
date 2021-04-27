@@ -14,32 +14,34 @@ const Header = (props) => {
     const Navbar = () => {
         return (
             <div className="navlinksmob">
-                <ul className="nav-links" onClick={()=> setOpen(!open)}>
-                    <li>
-                        <Translation>
-                            {(t, { i18n }) => <a href="/">{t('NavLinks.part1')}</a>}
-                        </Translation>
-                    </li>
-                    <li>
-                        <Translation>
-                            {(t, { i18n }) => <a href="#about" oo>{t('NavLinks.part2')}</a>}
-                        </Translation>
-                    </li>
-                    <li>
-                        <Translation>
-                            {(t, { i18n }) => <a href="#products">{t('NavLinks.part3')}</a>}
-                        </Translation>
-                    </li>
-                    <li>
-                        <Translation>
-                            {(t, { i18n }) => <a href="#staff">{t('NavLinks.part4')}</a>}
-                        </Translation>
-                    </li>
-                    <li>
-                        <Translation>
-                            {(t, { i18n }) => <a href="#contact">{t('NavLinks.part5')}</a>}
-                        </Translation>
-                    </li>
+                <ul className="nav-links">
+                    <div className="lists" onClick={()=> setOpen(!open)}>
+                        <li>
+                            <Translation>
+                                {(t, { i18n }) => <a href="/#home">{t('NavLinks.part1')}</a>}
+                            </Translation>
+                        </li>
+                        <li>
+                            <Translation>
+                                {(t, { i18n }) => <a href="/#about" oo>{t('NavLinks.part2')}</a>}
+                            </Translation>
+                        </li>
+                        <li>
+                            <Translation>
+                                {(t, { i18n }) => <a href="/#products">{t('NavLinks.part3')}</a>}
+                            </Translation>
+                        </li>
+                        <li>
+                            <Translation>
+                                {(t, { i18n }) => <a href="/#staff">{t('NavLinks.part4')}</a>}
+                            </Translation>
+                        </li>
+                        <li>
+                            <Translation>
+                                {(t, { i18n }) => <a href="/#contact">{t('NavLinks.part5')}</a>}
+                            </Translation>
+                        </li>
+                    </div>
                     <div className="right-nav mobile">
                         <LangDropDown />
                     </div>
@@ -56,7 +58,7 @@ const Header = (props) => {
             <nav id="navbar" className="navBar mobile-nav scrollBar">
                 {/* Logo */}
                 <div className="BrandLogo" style={{zIndex: '2'}}>
-                    <a href="/">
+                    <a href="/#home">
                         <img src={BrandLogoNav} alt="Logo"></img>
                     </a>
                 </div>
