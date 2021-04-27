@@ -53,16 +53,16 @@ function ContactLeft() {
                     <div className="contact-socials">
                         <ul>
                             <li>
-                                <a href='https://Facebook.com' rel="noreferrer" target="_blank"><AiFillFacebook /></a>
+                                <a href='https://Facebook.com' alt="facebook" rel="noreferrer" target="_blank"><AiFillFacebook /></a>
                             </li>
                             <li>
-                                <a href='https://Instagram.com' rel="noreferrer" target="_blank"><AiOutlineInstagram /></a>
+                                <a href='https://Instagram.com' alt="instagram" rel="noreferrer" target="_blank"><AiOutlineInstagram /></a>
                             </li>
                             <li>
-                                <a href='https://Youtube.com' rel="noreferrer" target="_blank"><AiFillYoutube /></a>
+                                <a href='https://Youtube.com' alt="youtube" rel="noreferrer" target="_blank"><AiFillYoutube /></a>
                             </li>
                             <li>
-                                <a href='https://Twitter.com' rel="noreferrer" target="_blank"><AiOutlineTwitter /></a>
+                                <a href='https://Twitter.com' alt="twitter" rel="noreferrer" target="_blank"><AiOutlineTwitter /></a>
                             </li>
                         </ul>
                     </div>

@@ -19,25 +19,25 @@ function OurJuice(props) {
                     <Carousel.Item>
                         <div className="carouselFlex">
                             <Card style={{ width: '18rem' }}>
-                                <Card.Img variant="top" src='asd' className="purple" />
+                                <Card.Img variant="top" className="purple" alt="juice" />
                                 <Card.Body>
                                 <Card.Title>Juice Name</Card.Title>
                                 </Card.Body>
                             </Card>
                             <Card style={{ width: '18rem' }}>
-                                <Card.Img variant="top" src='asd' className="purple" />
+                                <Card.Img variant="top" className="purple" alt="juice" />
                                 <Card.Body>
                                     <Card.Title>Juice Name</Card.Title>
                                 </Card.Body>
                             </Card>
                             <Card style={{ width: '18rem' }}>
-                                <Card.Img variant="top" src='asd' className="purple" />
+                                <Card.Img variant="top" className="purple" alt="juice" />
                                 <Card.Body>
                                     <Card.Title>Juice Name</Card.Title>
                                 </Card.Body>
                             </Card>
                             <Card style={{ width: '18rem' }}>
-                                <Card.Img variant="top" src='asd' className="purple" />
+                                <Card.Img variant="top" className="purple" alt="juice" />
                                 <Card.Body>
                                     <Card.Title>Juice Name</Card.Title>
                                 </Card.Body>
@@ -47,25 +47,25 @@ function OurJuice(props) {
                     <Carousel.Item>
                     <div className="carouselFlex">
                         <Card style={{ width: '18rem' }}>
-                                <Card.Img variant="top" src='asd' className="purple" />
+                                <Card.Img variant="top" className="purple" alt="juice" />
                                 <Card.Body>
                                     <Card.Title>Juice Name</Card.Title>
                                 </Card.Body>
                             </Card>
                             <Card style={{ width: '18rem' }}>
-                                <Card.Img variant="top" src='asd' className="purple" />
+                                <Card.Img variant="top" className="purple" alt="juice" />
                                 <Card.Body>
                                     <Card.Title>Juice Name</Card.Title>
                                 </Card.Body>
                             </Card>
                             <Card style={{ width: '18rem' }}>
-                                <Card.Img variant="top" src='asd' className="purple" />
+                                <Card.Img variant="top" className="purple" alt="juice" />
                                 <Card.Body>
                                     <Card.Title>Juice Name</Card.Title>
                                 </Card.Body>
                             </Card>
                             <Card style={{ width: '18rem' }}>
-                                <Card.Img variant="top" src='asd' className="purple" />
+                                <Card.Img variant="top" className="purple" alt="juice" />
                                 <Card.Body>
                                     <Card.Title>Juice Name</Card.Title>
                                 </Card.Body>
@@ -82,7 +82,7 @@ function OurJuice(props) {
                     <Carousel.Item>
                         <div className="carouselFlex">
                             <Card style={{ width: '18rem' }}>
-                                <Card.Img variant="top" src='asd' className="purple" />
+                                <Card.Img variant="top" className="purple" alt="juice" />
                                 <Card.Body>
                                     <Card.Title>Juice Name</Card.Title>
                                 </Card.Body>
@@ -92,7 +92,7 @@ function OurJuice(props) {
                     <Carousel.Item>
                         <div className="carouselFlex">
                             <Card style={{ width: '18rem' }}>
-                                <Card.Img variant="top" src='asd' className="purple" />
+                                <Card.Img variant="top" className="purple" alt="juice" />
                                 <Card.Body>
                                     <Card.Title>Juice Name</Card.Title>
                                 </Card.Body>
@@ -102,7 +102,7 @@ function OurJuice(props) {
                     <Carousel.Item>
                         <div className="carouselFlex">
                             <Card style={{ width: '18rem' }}>
-                                <Card.Img variant="top" src='asd' className="purple" />
+                                <Card.Img variant="top" className="purple" alt="juice" />
                                 <Card.Body>
                                     <Card.Title>Juice Name</Card.Title>
                                 </Card.Body>
@@ -112,7 +112,7 @@ function OurJuice(props) {
                     <Carousel.Item>
                         <div className="carouselFlex">
                             <Card style={{ width: '18rem' }}>
-                                <Card.Img variant="top" src='asd' className="purple" />
+                                <Card.Img variant="top" className="purple" alt="juice" />
                                 <Card.Body>
                                     <Card.Title>Juice Name</Card.Title>
                                 </Card.Body>

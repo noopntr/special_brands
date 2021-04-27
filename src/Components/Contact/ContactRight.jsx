@@ -24,11 +24,9 @@ function ContactRight() {
     
     emailjs.sendForm('service_3c9s50c', 'template_gip5que', e.target, 'user_DmbAN19hktem5zuMTXWTj')
         .then((result) => {
-        console.log(result.text);
         setIsValid(true)
         return isValid ? success : null
         }, (error) => {
-        console.log(error.text);
         setIsValid(false)
         return isValid ? error : null
         });
